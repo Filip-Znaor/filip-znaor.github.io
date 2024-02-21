@@ -1,3 +1,6 @@
 [submodule "NEET-Akademija"]
 	path = NEET-Akademija
 	url = https://github.com/Filip-Znaor/NEET-Akademija
+[submodule "izrada-web-stranice-web-shop-Filip-Znaor"]
+	path = izrada-web-stranice-web-shop-Filip-Znaor
+	url = https://github.com/Trokut-Neet-Akademija-4-0/izrada-web-stranice-web-shop-Filip-Znaor
