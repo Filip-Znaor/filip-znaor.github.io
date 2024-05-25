@@ -1,0 +1,9 @@
+body {background-image: url(head.jpg); background-repeat: no-repeat; background-size: 1700px;
+;}
+
+div {position: absolute;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);}
+
+input, button {background: lightblue;}

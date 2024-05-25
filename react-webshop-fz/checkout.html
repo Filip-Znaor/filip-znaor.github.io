@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" as="style">
+    <title>Proces plaćanja</title>
+</head>
+<body>
+    <header>
+        <iframe src="partials/header.html" width="100%" class="auto-height-iframe"></iframe>
+    </header>
+
+    <table width="100%" border="2px">
+        <tr>
+            <td>
+                <a href="index.html"><b>NASLOVNICA</b></a>
+            </td>
+            <td>
+                <a href="about.html"><b>O NAMA</b></a>
+            </td>
+            <td>
+                <a href="blog.html"><b>BLOG</b></a>
+            </td>
+            <td>
+                <a href="cart.html"><b>KOŠARICA</b></a>
+            </td>
+            <td>
+                <a href="contact.html"><b>KONTAKT</b></a>
+            </td>
+            <td>
+                <a href="products.html"><b>PROIZVODI</b></a>
+            </td>
+        </tr>
+   </table>
+
+    <h2>-Proces plaćanja-</h2>
+
+        <form action="slanje.php">
+            <tr>
+            <label>Ime i prezime</label>
+                <input type="text" required> 
+            </tr>
+            <tr>
+            <label for="fname">E-mail adresa:</label>
+                <input type="email" id="fname" name="fname">
+            </tr>
+            <tr>
+            <label>Broj kartice: </label>
+                <input type="number" required>
+            </tr>
+        </form>
+
+
+    <br>
+        <label>Adresa dostave: </label>
+            <input type="text" required> 
+        </tr>
+        <tr>
+        <label for="fname">Telefon:</label>
+            <input type="tel" required>
+        </tr>
+        <tr>
+        <label>Posebne napomene:</label>
+            <input type="text">
+        </tr>
+    <br>
+    <br>
+    <table align="center" border="2px" width="100%">
+        <tr>
+            <td><b>Slika artikla</b></td>
+            <td><b>Opis artikla</b></td>
+            <td><b>Količina</b></td>
+            <td><b>Cijena</b></td>
+        </tr>
+        <tr>
+            <td><img src="images/products/kus.jpg" width="100px" height="100px"></td>
+            <td>Nishikiyama Jastuk</td>
+            <td>1 kom</td>
+            <td>24,99€</td>
+        </tr>   
+        <tr>
+            <td><img src="images/products/maj.jpg" width="75px" height="100px"></td>
+            <td>Goro Majima Model</td>
+            <td>1 kom</td>
+            <td>89,99€</td>
+        </tr>   
+        <tr>
+            <td></td>
+            <td><b>UKUPNO</b></td>
+            <td></td>
+            <td>114,98€</td>
+        </tr>   
+    </table>
+<br>
+<br>
+
+<a href="cart.html"><button type="submit" width="30px">Natrag na košaricu</button></a>
+<a href="index.html">  <button type="submit" width="30px">Završi plaćanje</button></a>
+
+   <br>
+   <br>
+   <input type="checkbox" required> Prihvaćam prikupljanje i obradu osobnih podataka danih u obrascu bez kojih moj zahtjev ne može biti ispunjen, te da me se kontaktira u svrhu slanja obavijesti.
+               <br> 
+                <input type="checkbox"> Prijavi se na newsletter.
+
+    <footer>
+        <iframe src="partials/footer.html" width="100%" class="auto-height-iframe"></iframe>
+    </footer>
+</body>
+</html>

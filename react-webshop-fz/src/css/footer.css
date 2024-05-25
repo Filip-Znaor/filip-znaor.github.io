@@ -1,0 +1,4 @@
+body {background-image: url(head.jpg); background-repeat: no-repeat; background-size: 1700px;
+    font-family: Edo; src: url(partials\Edo_SZ_Font_Family_(Fontmirror)\Edo SZ 400.ttf); text-align: center;}
+table {background-color: lightblue; color: blue;}
+:any-link {text-decoration: none;}

@@ -1,0 +1,15 @@
+.auto-height-iframe. {border: none; width: 100%; margin: 0; height: fit-content;}
+body {background: rgb(0,199,254);
+    background: radial-gradient(circle, rgba(0,199,254,1) 0%, rgba(35,35,35,1) 100%); text-align: center; color:white}
+table {background-color: lightblue; color: blue;}
+h2 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: darkblue;}
+.main-font {font-family: 'Times New Roman', Times, serif;}
+.secondary-font {font-family: 'Courier New', Courier, monospace;}
+.main-text-color {color: white;}
+.secondary-text-color {color: lightblue;}
+.main-bg-color {background: rgb(0,199,254);
+    background: radial-gradient(circle, rgba(0,199,254,1) 0%, rgba(35,35,35,1) 100%);}
+.secondary-bg-color {background: black;}
+:any-link {text-decoration: none;}
+img:hover {background-color: blue;}
+:visited {color: blue;}
